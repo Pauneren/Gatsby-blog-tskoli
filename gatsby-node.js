@@ -21,9 +21,7 @@ exports.createPages = async ({ actions, graphql }) => {
             url
             content
             createdAt
-            miniature{
-              publicURL
-            }
+       
           }
         }
         }

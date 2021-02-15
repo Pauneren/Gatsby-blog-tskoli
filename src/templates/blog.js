@@ -30,10 +30,7 @@ export const query = graphql`
             title
             url
             content
-            createdAt
-            miniature{
-              publicURL
-            }
+            createdAt        
           }
         }
         }
